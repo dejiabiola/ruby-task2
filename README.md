@@ -28,5 +28,5 @@ If users uses all available guessing power and still unable to guess right, user
 
 ## How to Run
 1. Clone the repo to your local device.
-2. Open the folder on command prompt
-2 Run code with <code>ruby guessing-game.rb</code>
+2. Open the folder on command prompt.
+3. Run code with <code>ruby guessing-game.rb</code>
