@@ -1,6 +1,6 @@
 # ruby-task2
 
-# Description
+## Description
 You are to build a number guessing game that has the following features:
 
  
@@ -25,3 +25,8 @@ If user guesses right, user should be told "You got it right!"
 If the user guesses wrong, user should be told "That was wrong"
 
 If users uses all available guessing power and still unable to guess right, user should be told "Game over!"
+
+## How to Run
+1. Clone the repo to your local device.
+2. Open the folder on command prompt
+2 Run code with <b>ruby guessing-game.rb</b>
