@@ -51,6 +51,8 @@ def checkLevel(level)
     gameFunction(20, 4, level)
   elsif level == "hard"
     gameFunction(50, 3, level)
+  else
+    puts "You have entered an invalid input."
   end
 end
 
@@ -58,8 +60,4 @@ puts "Welcome to the number guessing game!"
 puts "There are 3 levels. These are easy, medium and hard."
 puts "Enter a level to continue: "
 level = gets.chomp().downcase
-if level == "easy" or level == "medium" or level == "hard"
-  checkLevel(level)
-else
-  puts "You have entered an invalid input."
-end
+checkLevel(level)
